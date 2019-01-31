@@ -2,13 +2,21 @@
   "name": "hello-rojo",
   "servePort": 8000,
   "partitions": {
-    "dist/shared": {
-      "path": "dist\\shared",
-      "target": "ReplicatedStorage.dist/shared"
+    "include": {
+			"path": "include",
+			"target": "ReplicatedStorage.RobloxTS.Include"
+		},
+    "modules": {
+			"path": "modules",
+			"target": "ReplicatedStorage.RobloxTS.Modules"
     },
-    "dist/server": {
-      "path": "dist\\server",
-      "target": "ServerStorage.dist/server"
+    "replicated-storage": {
+      "path": "dist\\replicated-storage",
+      "target": "ReplicatedStorage.Rojo"
+    },
+    "server-storage": {
+      "path": "dist\\server-storage",
+      "target": "ServerStorage.Rojo"
     }
   }
 }
