@@ -1,0 +1,14 @@
+{
+  "name": "hello-rojo",
+  "servePort": 8000,
+  "partitions": {
+    "dist/shared": {
+      "path": "dist\\shared",
+      "target": "ReplicatedStorage.dist/shared"
+    },
+    "dist/server": {
+      "path": "dist\\server",
+      "target": "ServerStorage.dist/server"
+    }
+  }
+}
