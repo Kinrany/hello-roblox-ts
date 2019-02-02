@@ -1,5 +1,5 @@
 {
-  "name": "hello-rojo",
+  "name": "hello-roblox-ts",
   "servePort": 8000,
   "partitions": {
     "include": {
