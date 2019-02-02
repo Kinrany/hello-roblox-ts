@@ -17,6 +17,10 @@
     "server-storage": {
       "path": "dist\\server-storage",
       "target": "ServerStorage.Rojo"
+    },
+    "workspace": {
+      "path": "dist\\workspace",
+      "target": "Workspace.Rojo"
     }
   }
 }
