@@ -25,5 +25,4 @@ range(-10, 10).forEach(x => {
 
 tile_grid.forEach(tile => {
   tile.Parent = folder;
-  print(tile);
 });
