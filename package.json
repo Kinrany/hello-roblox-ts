@@ -13,19 +13,17 @@
   "author": "kinrany",
   "license": "ISC",
   "devDependencies": {
-    "rbx-types": "^1.0.111"
+    "rbx-types": "^1.0.118",
+    "roblox-ts": "0.0.24"
   },
   "dependencies": {
-    "rbx-datastore2": "^1.0.0",
+    "rbx-datastore2": "^1.0.2",
     "rbx-event": "^1.0.4",
     "rbx-inspect": "^1.0.4",
-    "rbx-net": "^0.5.0",
-    "rbx-resources": "0.0.12",
+    "rbx-net": "^0.6.0",
+    "rbx-resources": "0.0.13",
     "rbx-roact": "^0.1.8",
     "rbx-services": "^1.0.18",
-    "rbx-t": "^0.0.6"
-  },
-  "peerDependencies": {
-    "roblox-ts": "^0.0.21"
+    "rbx-t": "0.0.6"
   }
 }

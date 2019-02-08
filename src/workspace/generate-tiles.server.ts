@@ -3,7 +3,7 @@ import create_tile from 'replicated-storage/tile';
 import { range } from 'replicated-storage/utils';
 import * as grid from 'replicated-storage/grid';
 
-const folder = new Folder();
+const folder = new Instance('Folder');
 folder.Name = 'Tiles';
 folder.Parent = Workspace;
 

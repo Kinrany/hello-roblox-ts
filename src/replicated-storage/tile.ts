@@ -8,7 +8,7 @@ export interface Params {
 }
 
 export function create({pos, color}: Params, parent?: Instance): Part {
-  const tile = new Part();
+  const tile = new Instance('Part');
   tile.Name = 'Tile';
   tile.Color = color;
   tile.Size = new Vector3(grid.grid_scale, 10, grid.grid_scale);
