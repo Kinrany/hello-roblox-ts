@@ -10,8 +10,9 @@ folder.Parent = Workspace;
 const rng = new Random();
 
 const tile_grid: Part[] = [];
-range(-10, 10).forEach(x => {
-  range(-10, 10).forEach(y => {
+const grid_size = 40;
+range(-grid_size/2, grid_size/2).forEach(x => {
+  range(-grid_size/2, grid_size/2).forEach(y => {
     const r = rng.NextInteger(0, 2);
     const g = rng.NextInteger(0, 2);
     const b = rng.NextInteger(0, 2);
