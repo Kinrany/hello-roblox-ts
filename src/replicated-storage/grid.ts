@@ -10,9 +10,8 @@ export function position(x: number, y: number): Position {
 }
 
 export const unit = 10;
-export const height = 0;
 
-export function to_workspace([x, y]: Position): Vector3 {
+export function to_workspace([x, y]: Position, height: number): Vector3 {
   return new Vector3(
     x * unit,
     height,

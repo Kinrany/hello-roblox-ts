@@ -1,8 +1,8 @@
 import { Workspace } from 'rbx-services';
-import tile_part from 'replicated-storage/parts/tile';
-import { range, random } from 'replicated-storage/utils';
 import * as grid from 'replicated-storage/grid';
+import tile_part from 'replicated-storage/parts/tile';
 import Tile from 'replicated-storage/rules/tile';
+import { random, range } from 'replicated-storage/utils';
 
 const folder = new Instance('Folder');
 folder.Name = 'Tiles';
