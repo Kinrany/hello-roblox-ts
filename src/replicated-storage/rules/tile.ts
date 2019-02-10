@@ -4,3 +4,5 @@ export default interface Tile {
   readonly color: Color3;
   readonly position: Position;
 }
+
+export const _ = {};
